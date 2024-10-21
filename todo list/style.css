@@ -1,0 +1,45 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image:linear-gradient(skyblue, white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    background-color: azure;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px;
+}
+h1{
+    font-family: Verdana;
+    font-size: 1.5em;
+    padding: auto;
+    color: rgb(75, 65, 65);
+}
+button{
+    background-color: rgb(112, 134, 131);
+    font-family: verdana;
+    font-size: 0.5em;
+    padding: 2px 5px;
+    font: bold;
+}
+#taskList{
+    list-style: none;
+    padding: 0px;
+}
+li{
+    background: #a88888;
+    margin: 2px 0;
+    padding: 2px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.completed {
+    text-decoration: line-through;
+    color: #141212;
+}
